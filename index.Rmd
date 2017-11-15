@@ -12,6 +12,12 @@ github-repo: rstudio/bookdown-demo
 description: "Aprenda como tornar sua pesquisa mais facilmente reproduzível elaborando o compêndio de pesquisa no ambiente RStudio."
 ---
 
+## Slides do autor {-}
+
+Esta material foi elaborado para um minicurso de 8h oferecido aos estudantes do Programa de Pós-graduação em Fitopatologia dia 13 de novembro de 2017. 
+
+<iframe frameborder="0" src="https://docs.google.com/presentation/d/e/2PACX-1vQkZr6Oy04ZxpgWRYrwfFxZoaoq66-Cx920XvHMycFnPlRbUlARnadF6w7Nh4RcrSPYWkwFFsqgPFUu/embed?start=false&loop=false&delayms=3000" frameborder="0" width="480" height="390" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+
 # Prefácio {-}
 
 
@@ -37,11 +43,7 @@ Um cientista que objetiva que sua pesquisa seja reproduzida por outros grupos de
 
 Nesse livro, o estudante ou pesquisador interessado aprenderá as boas práticas de pesquisa reproduzível que devem ser incorporadas na rotina de trabalho. Com hábitos simples, persistência, sistemática e um pouco de dedicação na linguagem R, o pesquisador moderno estará adotando práticas que contribuirão para a maior transparência na ciência.
 
-## Slides do autor {-}
 
-A primeira versão deste material foi elaborada para um minicurso de 8h oferecido aos estudantes do Programa de Pós-graduação em Fitopatologia dia 13 de novembro de 2017. Os slides da apresentação podem ser visualizado abaixo.
-
-<iframe frameborder="0" src="https://docs.google.com/presentation/d/e/2PACX-1vQkZr6Oy04ZxpgWRYrwfFxZoaoq66-Cx920XvHMycFnPlRbUlARnadF6w7Nh4RcrSPYWkwFFsqgPFUu/embed?start=false&loop=false&delayms=3000" frameborder="0" width="480" height="390" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
 
 ## Agradecimentos {-}
 
