@@ -1,0 +1,56 @@
+--- 
+title: "Elaborando um Compêndio de Pesquisa em RMarkdown"
+author: "Emerson M. Del Ponte"
+date: "`r Sys.Date()`"
+site: bookdown::bookdown_site
+output: bookdown::gitbook
+documentclass: book
+bibliography: [book.bib, packages.bib]
+biblio-style: apalike
+link-citations: yes
+github-repo: rstudio/bookdown-demo
+description: "Aprenda como tornar sua pesquisa mais facilmente reproduzível elaborando o compêndio de pesquisa no ambiente RStudio."
+---
+
+# Prefácio {-}
+
+
+**Pesquisa Reproduzível** (sin. reprodutível) é um tema da ciencia que tem despertado muito a atenção de pesquisadores, agências de fomento e a mídia acadêmica nos últimos anos. São frequentes os relatos de que um estudo que foi repetido gerou resultados diferentes ou mesmo discortantes de um estudo anterior. Os próprios pesquisadores tem se manifestado com grande preocupação com uma alegada "crise de reprodutibilidade" na ciência. 
+
+As possíveis causas e algumas soluções para minimizar o problema vem sendo discutidas e algumas ações implementadas. É importante que o estudante e pesquisador em geral tenha conhecimento sobre a correta definição dos termos para melhorar a comunicação. Reprodutibilidade tem diferentes significados dependendo do contexto. Aqui, definimos como:  
+
+> Capacidade de um pesquisador em chegar ao resultado de um estudo prévio usando os mesmos materiais (dados) e métodos (estatística) da pesquisa original.   
+
+Portanto, é condição *sine qua non* que o pesquisador independente tenha:
+
+- acesso aos dados
+- saiba detalhes de como a análise foi feita
+
+Na mídia, os resultados discordantes de estudos se refere, na verdade, à **replicabilidade**, ou a **reprodutibilidade inferencial**, segundo alguns autores. Em ciência, parte-se do princípio de que os resultados de uma pesquisa publicados em revistas com corpo editorial tenham sido obtidos segundo os princípios que regem os métodos e a ética científica. No entanto, os editores e revisores, quase sempre, não tem como verificar se todos os passos do trabalho, especialmente a análise dos dados, foram executados corretamente, uma vez que avaliam apenas um produto - o artigo científico. 
+
+Um artigo científico é escrito e submetido para publicação segundo convenções da academia que definem o conteúdo mínimo para que o trabalho seja avaliado pelos pares. Normalmente esse conteúdo consiste no texto, gráficos e tabelas e, idealmente, um material suplementar (o que ainda parece ser desconhecido para muitos pesquisadores). 
+
+
+## Ambiente computacional {-}
+
+Um cientista que objetiva que sua pesquisa seja reproduzida por outros grupos deve se preocupar em disponibilizar também os dados e os procedimentos de análise para que possam ser inspecionados e reutilizados. Esse trabalho também exige procedimentos padronizados de conteúdo e formato de arquivos (dados, relatórios, imagens, etc.) os quais devem ser comentados de maneira clara para que outros pesquisadores possam reproduzir, melhorar ou expandir uma análise estatística, reutilizar os dados em outro trabalho ou combinar com outros conjuntos. Uma condição para que isso ocorra é que os pesquisadores usem um mesmo ambiente computacional que seja preferenciamente de código aberto. Dentre os ambientes, nossa preferência é pelo R e conjunto de ferramentas integradas no ambiente RStudio.
+
+Nesse livro, o estudante ou pesquisador interessado aprenderá as boas práticas de pesquisa reproduzível que devem ser incorporadas na rotina de trabalho. Com hábitos simples, persistência, sistemática e um pouco de dedicação na linguagem R, o pesquisador moderno estará adotando práticas que contribuirão para a maior transparência na ciência.
+
+## Slides do autor {-}
+
+A primeira versão deste material foi elaborada para um minicurso de 8h oferecido aos estudantes do Programa de Pós-graduação em Fitopatologia dia 13 de novembro de 2017. Os slides da apresentação podem ser visualizado abaixo.
+
+<iframe frameborder="0" src="https://docs.google.com/presentation/d/e/2PACX-1vQkZr6Oy04ZxpgWRYrwfFxZoaoq66-Cx920XvHMycFnPlRbUlARnadF6w7Nh4RcrSPYWkwFFsqgPFUu/embed?start=false&loop=false&delayms=3000" frameborder="0" width="480" height="390" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+
+## Agradecimentos {-}
+
+
+
+
+```{r include=FALSE}
+# automatically create a bib database for R packages
+knitr::write_bib(c(
+  .packages(), 'bookdown', 'knitr', 'rmarkdown'
+), 'packages.bib')
+```
