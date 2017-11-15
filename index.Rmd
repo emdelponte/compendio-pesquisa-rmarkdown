@@ -12,13 +12,16 @@ github-repo: rstudio/bookdown-demo
 description: "Aprenda como tornar sua pesquisa mais facilmente reproduzível elaborando o compêndio de pesquisa no ambiente RStudio."
 ---
 
+
+# Apresentação
+
 ## Slides do autor {-}
 
-Esta material foi elaborado para um minicurso de 8h oferecido aos estudantes do Programa de Pós-graduação em Fitopatologia dia 13 de novembro de 2017. 
+A primeira versão deste material foi elaborada para um minicurso de 8h oferecido aos estudantes do Programa de Pós-graduação em Fitopatologia dia 13 de novembro de 2017. Os slides da apresentação podem ser visualizado abaixo.
 
-<iframe frameborder="0" src="https://docs.google.com/presentation/d/e/2PACX-1vQkZr6Oy04ZxpgWRYrwfFxZoaoq66-Cx920XvHMycFnPlRbUlARnadF6w7Nh4RcrSPYWkwFFsqgPFUu/embed?start=false&loop=false&delayms=3000" frameborder="0" width="480" height="390" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+<iframe frameborder="0"src="https://docs.google.com/presentation/d/e/2PACX-1vQkZr6Oy04ZxpgWRYrwfFxZoaoq66-Cx920XvHMycFnPlRbUlARnadF6w7Nh4RcrSPYWkwFFsqgPFUu/embed?start=false&loop=false&delayms=3000" frameborder="0" width="480" height="390" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
 
-# Prefácio {-}
+## Prefácio {-}
 
 
 **Pesquisa Reproduzível** (sin. reprodutível) é um tema da ciencia que tem despertado muito a atenção de pesquisadores, agências de fomento e a mídia acadêmica nos últimos anos. São frequentes os relatos de que um estudo que foi repetido gerou resultados diferentes ou mesmo discortantes de um estudo anterior. Os próprios pesquisadores tem se manifestado com grande preocupação com uma alegada "crise de reprodutibilidade" na ciência. 
@@ -42,7 +45,6 @@ Um artigo científico é escrito e submetido para publicação segundo convenç�
 Um cientista que objetiva que sua pesquisa seja reproduzida por outros grupos deve se preocupar em disponibilizar também os dados e os procedimentos de análise para que possam ser inspecionados e reutilizados. Esse trabalho também exige procedimentos padronizados de conteúdo e formato de arquivos (dados, relatórios, imagens, etc.) os quais devem ser comentados de maneira clara para que outros pesquisadores possam reproduzir, melhorar ou expandir uma análise estatística, reutilizar os dados em outro trabalho ou combinar com outros conjuntos. Uma condição para que isso ocorra é que os pesquisadores usem um mesmo ambiente computacional que seja preferenciamente de código aberto. Dentre os ambientes, nossa preferência é pelo R e conjunto de ferramentas integradas no ambiente RStudio.
 
 Nesse livro, o estudante ou pesquisador interessado aprenderá as boas práticas de pesquisa reproduzível que devem ser incorporadas na rotina de trabalho. Com hábitos simples, persistência, sistemática e um pouco de dedicação na linguagem R, o pesquisador moderno estará adotando práticas que contribuirão para a maior transparência na ciência.
-
 
 
 ## Agradecimentos {-}
