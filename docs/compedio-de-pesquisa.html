@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html >
+
+<head>
+
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>Elaborando um Compêndio de Pesquisa em RMarkdown</title>
+  <meta name="description" content="Aprenda como tornar sua pesquisa mais facilmente reproduzível elaborando o compêndio de pesquisa no ambiente RStudio.">
+  <meta name="generator" content="bookdown 0.5.10 and GitBook 2.6.7">
+
+  <meta property="og:title" content="Elaborando um Compêndio de Pesquisa em RMarkdown" />
+  <meta property="og:type" content="book" />
+  
+  
+  <meta property="og:description" content="Aprenda como tornar sua pesquisa mais facilmente reproduzível elaborando o compêndio de pesquisa no ambiente RStudio." />
+  <meta name="github-repo" content="rstudio/bookdown-demo" />
+
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:title" content="Elaborando um Compêndio de Pesquisa em RMarkdown" />
+  
+  <meta name="twitter:description" content="Aprenda como tornar sua pesquisa mais facilmente reproduzível elaborando o compêndio de pesquisa no ambiente RStudio." />
+  
+
+<meta name="author" content="Emerson M. Del Ponte">
+
+
+<meta name="date" content="2017-11-15">
+
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black">
+  
+  
+<link rel="prev" href="intro.html">
+
+<script src="libs/jquery-2.2.3/jquery.min.js"></script>
+<link href="libs/gitbook-2.6.7/css/style.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-bookdown.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-highlight.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-search.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-fontsettings.css" rel="stylesheet" />
+
+
+
+
+
+
+
+
+
+
+<link rel="stylesheet" href="style.css" type="text/css" />
+</head>
+
+<body>
+
+
+
+  <div class="book without-animation with-summary font-size-2 font-family-1" data-basepath=".">
+
+    <div class="book-summary">
+      <nav role="navigation">
+
+<ul class="summary">
+<li><a href="./index.html">R e RStudio na pesquisa</a></li>
+
+<li class="divider"></li>
+<li class="chapter" data-level="" data-path="index.html"><a href="index.html"><i class="fa fa-check"></i>Prefácio</a><ul>
+<li class="chapter" data-level="" data-path="index.html"><a href="index.html#ambiente-computacional"><i class="fa fa-check"></i>Ambiente computacional</a></li>
+<li class="chapter" data-level="" data-path="index.html"><a href="index.html#slides-do-autor"><i class="fa fa-check"></i>Slides do autor</a></li>
+<li class="chapter" data-level="" data-path="index.html"><a href="index.html#agradecimentos"><i class="fa fa-check"></i>Agradecimentos</a></li>
+</ul></li>
+<li class="chapter" data-level="1" data-path="intro.html"><a href="intro.html"><i class="fa fa-check"></i><b>1</b> Requisitos básicos</a><ul>
+<li class="chapter" data-level="1.1" data-path="intro.html"><a href="intro.html#uma-nova-rotina"><i class="fa fa-check"></i><b>1.1</b> Uma nova rotina</a></li>
+<li class="chapter" data-level="1.2" data-path="intro.html"><a href="intro.html#ferramentas-computacionais"><i class="fa fa-check"></i><b>1.2</b> Ferramentas computacionais</a></li>
+</ul></li>
+<li class="chapter" data-level="2" data-path="compedio-de-pesquisa.html"><a href="compedio-de-pesquisa.html"><i class="fa fa-check"></i><b>2</b> Compêdio de pesquisa</a><ul>
+<li class="chapter" data-level="2.1" data-path="compedio-de-pesquisa.html"><a href="compedio-de-pesquisa.html#definicao"><i class="fa fa-check"></i><b>2.1</b> Definição</a></li>
+<li class="chapter" data-level="2.2" data-path="compedio-de-pesquisa.html"><a href="compedio-de-pesquisa.html#dados"><i class="fa fa-check"></i><b>2.2</b> Dados</a></li>
+<li class="chapter" data-level="2.3" data-path="compedio-de-pesquisa.html"><a href="compedio-de-pesquisa.html#formato"><i class="fa fa-check"></i><b>2.3</b> Formato</a></li>
+<li class="chapter" data-level="2.4" data-path="compedio-de-pesquisa.html"><a href="compedio-de-pesquisa.html#planilhas-eletronicas"><i class="fa fa-check"></i><b>2.4</b> Planilhas eletronicas</a></li>
+<li class="chapter" data-level="2.5" data-path="compedio-de-pesquisa.html"><a href="compedio-de-pesquisa.html#nomes"><i class="fa fa-check"></i><b>2.5</b> Nomes</a></li>
+<li class="chapter" data-level="2.6" data-path="compedio-de-pesquisa.html"><a href="compedio-de-pesquisa.html#copias"><i class="fa fa-check"></i><b>2.6</b> Copias</a></li>
+<li class="chapter" data-level="2.7" data-path="compedio-de-pesquisa.html"><a href="compedio-de-pesquisa.html#formato-1"><i class="fa fa-check"></i><b>2.7</b> Formato</a></li>
+<li class="chapter" data-level="2.8" data-path="compedio-de-pesquisa.html"><a href="compedio-de-pesquisa.html#deposito"><i class="fa fa-check"></i><b>2.8</b> Depósito</a></li>
+<li class="chapter" data-level="2.9" data-path="compedio-de-pesquisa.html"><a href="compedio-de-pesquisa.html#licenca"><i class="fa fa-check"></i><b>2.9</b> Licença</a></li>
+</ul></li>
+<li class="divider"></li>
+<li><a href="https://github.com/rstudio/bookdown" target="blank">Published with bookdown</a></li>
+
+</ul>
+
+      </nav>
+    </div>
+
+    <div class="book-body">
+      <div class="body-inner">
+        <div class="book-header" role="navigation">
+          <h1>
+            <i class="fa fa-circle-o-notch fa-spin"></i><a href="./">Elaborando um Compêndio de Pesquisa em RMarkdown</a>
+          </h1>
+        </div>
+
+        <div class="page-wrapper" tabindex="-1" role="main">
+          <div class="page-inner">
+
+            <section class="normal" id="section-">
+<div id="compedio-de-pesquisa" class="section level1">
+<h1><span class="header-section-number">Capítulo 2</span> Compêdio de pesquisa</h1>
+<div id="definicao" class="section level2">
+<h2><span class="header-section-number">2.1</span> Definição</h2>
+<p>Um compêndio (do inglês, compendium) pode ser <a href="https://www.priberam.pt/dlpo/compêndio">definido</a> como uma compilação em que se encontra resumido o mais indispensável de um estudo. O termo “research compendium” foi cunhado em meados dos anos 2000 em uma publicação sobre pesquisa reproduzível com enfoque em análise estatística.</p>
+<blockquote>
+<p>We introduce the concept of a compendium as both a container for the different elements that make up the document and its computations (i.e. text, code, data, …), and as a means for distributing, managing and updating the collection.<span class="citation">(Robert Gentleman, Department of Biostatistics, Harvard University, Duncan Temple Lang, Department of Statistics, University of California, Davis, and Authors <a href="#ref-Robert_Gentleman_Department_of_Biostatistics_Harvard_University2004-qt">2004</a>)</span></p>
+</blockquote>
+<p>Na visão dos autores, o compêndio tem como base um ou mais documentos dinâmicos, a partir dos quais são gerados os demais documentos estáticos como um PDF a partir de um arquivo TEX (há mais de 10 anos o TEX era o equivalente ao Markdown). Também, esses documentos dinâmicos (e seus elementos de texto, código e dados) devem ser facilmente extraídos e processados de diferentes maneiras pelo autor e pelos leitores.</p>
+<p>Portanto, é importante que um compêndio da pesquisa seja desenvolvido de maneira padronizada para que outros pesquisadores, de forma facilitada, possam inspecionar, reproduzir e ampliar a pesquisa. Os princípios básicos para a confecção de um compêndio de pesquisa são:</p>
+<ol style="list-style-type: decimal">
+<li>Organização segundo a convenção criada pela academia</li>
+<li>Separação clara de dados, códigos e saídas</li>
+<li>Especificação do ambiente computacional</li>
+<li>Documentação detalhada de cada elemento e rotina</li>
+</ol>
+<p>Um dos objetivo de se criar um compêndio de pesquisa é, em primeira instância, facilitar o trabalho do pesquisador e permitir que ele distribua os produtos gerados pela pesquisa de uma maneira mais ampla possível, visando a dar visibilidade ao trabalho. Além disso, a eficiência do trabalho é aumentada com a incorporação de uma sistemática que pode ser replicada em outros projetos, dimuindo assim os custos operacionais e acelerando o trabalho. Tem se discutido que publicações que são acompanhas de um compêndio tendem a receber maior atenção, credibilidade e citações uma vez que o compendio é um tipo de publicação por si só. Imagine o quanto pode ser útil tornar o compêndio público antes da submissão do trabalho de forma que editores e revisores possam revisar os dados e os métodos (estatísticos principalmente) que foram utilizados, entender as decisões tomadas no processo analítico e os resultados obticos. Alem disso, uma vez que o compêndio é publicado, os autores poderão receber comentários dos pares e dos revisores para melhorar o trabalho como um todo.</p>
+<p>Antes de falarmos sobre como organizar o compêndio de pesquisa, veremos aspectos e cuidados específicos de organização dos dados.</p>
+</div>
+<div id="dados" class="section level2">
+<h2><span class="header-section-number">2.2</span> Dados</h2>
+<p>Segundo Wilkinson et al. (2016), os dados devem ser organizados segundo o princípio <strong>FAIR</strong> = <strong>F</strong>indable, <strong>A</strong>ccessible, <strong>I</strong>nteroperable and <strong>R</strong>eusable.</p>
+<p>Compartilhar os dados (o que pode ser aplicado também aos códigos, significa facilitar a distribuição e o acesso pela comunidade científica, ou seja que eles sejam facilmente <strong>encontrados</strong> e <strong>acessados</strong>. Qual a vantagem disso? reproduzir os resultados originais e pertimitir que novas análises sejam feitas usando os mesmos dados, ou mesmo combinando com outros conjuntos de dados (metanálise). É importante que os dados estejam em um formato que seja de fácil entendimento para facilitar o uso. Três boas práticas são recomendadas:</p>
+<ol style="list-style-type: decimal">
+<li>Documentação: dados bem documentados e descritos (metadados) são mais fáceis de entender</li>
+<li>Formataçao: dados formatados apropriadamente podem ser usados em diversos programas de computador</li>
+<li>Distribuição: depósito em repositórios conhecidos e com licença aberta facilita que sejam encontrados e reusados</li>
+</ol>
+<p>Práticas de compartilhamento de dados talvez ainda não sejam valorizadas pela maioria dos pesquisadores, haja visto que a maioria dos trabalhos ainda não disponibilizam os dados originais. As vantagens óbvias seria a reprodução e possível melhorias na análise, o reuso dos dados em metanálises para chegar a conclusões gerais e gerar novo conhecimento que só é possível com dados compartilhados em larga escala. Mas por que ainda os pesquisadores não compartilham os dados? os motivos podem ser ligados ao receio de perder uma competição por publicações ou mesmo a falta de conhecimento sobre como fazer o compartilhamento. A percepção que domina é que organizar e depositar dados é difícil tecnicamente ou leva muito tempo,</p>
+</div>
+<div id="formato" class="section level2">
+<h2><span class="header-section-number">2.3</span> Formato</h2>
+</div>
+<div id="planilhas-eletronicas" class="section level2">
+<h2><span class="header-section-number">2.4</span> Planilhas eletronicas</h2>
+</div>
+<div id="nomes" class="section level2">
+<h2><span class="header-section-number">2.5</span> Nomes</h2>
+</div>
+<div id="copias" class="section level2">
+<h2><span class="header-section-number">2.6</span> Copias</h2>
+</div>
+<div id="formato-1" class="section level2">
+<h2><span class="header-section-number">2.7</span> Formato</h2>
+</div>
+<div id="deposito" class="section level2">
+<h2><span class="header-section-number">2.8</span> Depósito</h2>
+</div>
+<div id="licenca" class="section level2">
+<h2><span class="header-section-number">2.9</span> Licença</h2>
+
+<div id="refs" class="references">
+<div>
+<p>Robert Gentleman, Department of Biostatistics, Harvard University, Duncan Temple Lang, Department of Statistics, University of California, Davis, and Authors. 2004. “Statistical Analyses and Reproducible Research,” Bioconductor project working papers,. bepress.</p>
+</div>
+</div>
+</div>
+</div>
+<h3>References</h3>
+<div id="refs" class="references">
+<div id="ref-Robert_Gentleman_Department_of_Biostatistics_Harvard_University2004-qt">
+<p>Robert Gentleman, Department of Biostatistics, Harvard University, Duncan Temple Lang, Department of Statistics, University of California, Davis, and Authors. 2004. “Statistical Analyses and Reproducible Research,” Bioconductor project working papers,. bepress.</p>
+</div>
+</div>
+            </section>
+
+          </div>
+        </div>
+      </div>
+<a href="intro.html" class="navigation navigation-prev navigation-unique" aria-label="Previous page"><i class="fa fa-angle-left"></i></a>
+
+    </div>
+  </div>
+<script src="libs/gitbook-2.6.7/js/app.min.js"></script>
+<script src="libs/gitbook-2.6.7/js/lunr.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-search.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-sharing.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-fontsettings.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-bookdown.js"></script>
+<script src="libs/gitbook-2.6.7/js/jquery.highlight.js"></script>
+<script>
+gitbook.require(["gitbook"], function(gitbook) {
+gitbook.start({
+"sharing": {
+"github": false,
+"facebook": true,
+"twitter": true,
+"google": false,
+"weibo": false,
+"instapper": false,
+"vk": false,
+"all": ["facebook", "google", "twitter", "weibo", "instapaper"]
+},
+"fontsettings": {
+"theme": "white",
+"family": "sans",
+"size": 2
+},
+"edit": {
+"link": "https://github.com/rstudio/bookdown-demo/edit/master/02-compendio.Rmd",
+"text": "Edit"
+},
+"download": ["bookdown-demo.pdf", "bookdown-demo.epub"],
+"toc": {
+"collapse": "subsection"
+}
+});
+});
+</script>
+
+</body>
+
+</html>

@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html >
+
+<head>
+
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>Elaborando um Compêndio de Pesquisa em RMarkdown</title>
+  <meta name="description" content="Aprenda como tornar sua pesquisa mais facilmente reproduzível elaborando o compêndio de pesquisa no ambiente RStudio.">
+  <meta name="generator" content="bookdown 0.5.10 and GitBook 2.6.7">
+
+  <meta property="og:title" content="Elaborando um Compêndio de Pesquisa em RMarkdown" />
+  <meta property="og:type" content="book" />
+  
+  
+  <meta property="og:description" content="Aprenda como tornar sua pesquisa mais facilmente reproduzível elaborando o compêndio de pesquisa no ambiente RStudio." />
+  <meta name="github-repo" content="rstudio/bookdown-demo" />
+
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:title" content="Elaborando um Compêndio de Pesquisa em RMarkdown" />
+  
+  <meta name="twitter:description" content="Aprenda como tornar sua pesquisa mais facilmente reproduzível elaborando o compêndio de pesquisa no ambiente RStudio." />
+  
+
+<meta name="author" content="Emerson M. Del Ponte">
+
+
+<meta name="date" content="2017-11-15">
+
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black">
+  
+  
+<link rel="prev" href="index.html">
+<link rel="next" href="compedio-de-pesquisa.html">
+<script src="libs/jquery-2.2.3/jquery.min.js"></script>
+<link href="libs/gitbook-2.6.7/css/style.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-bookdown.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-highlight.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-search.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-fontsettings.css" rel="stylesheet" />
+
+
+
+
+
+
+
+
+
+
+<link rel="stylesheet" href="style.css" type="text/css" />
+</head>
+
+<body>
+
+
+
+  <div class="book without-animation with-summary font-size-2 font-family-1" data-basepath=".">
+
+    <div class="book-summary">
+      <nav role="navigation">
+
+<ul class="summary">
+<li><a href="./index.html">R e RStudio na pesquisa</a></li>
+
+<li class="divider"></li>
+<li class="chapter" data-level="" data-path="index.html"><a href="index.html"><i class="fa fa-check"></i>Prefácio</a><ul>
+<li class="chapter" data-level="" data-path="index.html"><a href="index.html#ambiente-computacional"><i class="fa fa-check"></i>Ambiente computacional</a></li>
+<li class="chapter" data-level="" data-path="index.html"><a href="index.html#slides-do-autor"><i class="fa fa-check"></i>Slides do autor</a></li>
+<li class="chapter" data-level="" data-path="index.html"><a href="index.html#agradecimentos"><i class="fa fa-check"></i>Agradecimentos</a></li>
+</ul></li>
+<li class="chapter" data-level="1" data-path="intro.html"><a href="intro.html"><i class="fa fa-check"></i><b>1</b> Requisitos básicos</a><ul>
+<li class="chapter" data-level="1.1" data-path="intro.html"><a href="intro.html#uma-nova-rotina"><i class="fa fa-check"></i><b>1.1</b> Uma nova rotina</a></li>
+<li class="chapter" data-level="1.2" data-path="intro.html"><a href="intro.html#ferramentas-computacionais"><i class="fa fa-check"></i><b>1.2</b> Ferramentas computacionais</a></li>
+</ul></li>
+<li class="chapter" data-level="2" data-path="compedio-de-pesquisa.html"><a href="compedio-de-pesquisa.html"><i class="fa fa-check"></i><b>2</b> Compêdio de pesquisa</a><ul>
+<li class="chapter" data-level="2.1" data-path="compedio-de-pesquisa.html"><a href="compedio-de-pesquisa.html#definicao"><i class="fa fa-check"></i><b>2.1</b> Definição</a></li>
+<li class="chapter" data-level="2.2" data-path="compedio-de-pesquisa.html"><a href="compedio-de-pesquisa.html#dados"><i class="fa fa-check"></i><b>2.2</b> Dados</a></li>
+<li class="chapter" data-level="2.3" data-path="compedio-de-pesquisa.html"><a href="compedio-de-pesquisa.html#formato"><i class="fa fa-check"></i><b>2.3</b> Formato</a></li>
+<li class="chapter" data-level="2.4" data-path="compedio-de-pesquisa.html"><a href="compedio-de-pesquisa.html#planilhas-eletronicas"><i class="fa fa-check"></i><b>2.4</b> Planilhas eletronicas</a></li>
+<li class="chapter" data-level="2.5" data-path="compedio-de-pesquisa.html"><a href="compedio-de-pesquisa.html#nomes"><i class="fa fa-check"></i><b>2.5</b> Nomes</a></li>
+<li class="chapter" data-level="2.6" data-path="compedio-de-pesquisa.html"><a href="compedio-de-pesquisa.html#copias"><i class="fa fa-check"></i><b>2.6</b> Copias</a></li>
+<li class="chapter" data-level="2.7" data-path="compedio-de-pesquisa.html"><a href="compedio-de-pesquisa.html#formato-1"><i class="fa fa-check"></i><b>2.7</b> Formato</a></li>
+<li class="chapter" data-level="2.8" data-path="compedio-de-pesquisa.html"><a href="compedio-de-pesquisa.html#deposito"><i class="fa fa-check"></i><b>2.8</b> Depósito</a></li>
+<li class="chapter" data-level="2.9" data-path="compedio-de-pesquisa.html"><a href="compedio-de-pesquisa.html#licenca"><i class="fa fa-check"></i><b>2.9</b> Licença</a></li>
+</ul></li>
+<li class="divider"></li>
+<li><a href="https://github.com/rstudio/bookdown" target="blank">Published with bookdown</a></li>
+
+</ul>
+
+      </nav>
+    </div>
+
+    <div class="book-body">
+      <div class="body-inner">
+        <div class="book-header" role="navigation">
+          <h1>
+            <i class="fa fa-circle-o-notch fa-spin"></i><a href="./">Elaborando um Compêndio de Pesquisa em RMarkdown</a>
+          </h1>
+        </div>
+
+        <div class="page-wrapper" tabindex="-1" role="main">
+          <div class="page-inner">
+
+            <section class="normal" id="section-">
+<div id="intro" class="section level1">
+<h1><span class="header-section-number">Capítulo 1</span> Requisitos básicos</h1>
+<div id="uma-nova-rotina" class="section level2">
+<h2><span class="header-section-number">1.1</span> Uma nova rotina</h2>
+<p>Para um estudante ou cientista que está iniciando um projeto é importante que as boas práticas de PR sejam incorporadas no seu dia a dia, e que sejam implementadas desde a concepção e o planejamento do mesmo.</p>
+<p>São atividades que dependem essencialmente de uma grande capacidade organizacional e admistrativa de tempo e esforço no planejamento, condução e documentação de tudo que é feito. É preciso seguir rotinas e gerar documentos que seguem certas normas de padronização, especialmente se o trabalho é feito de forma colaborativa. Analogamente, é como escrever e formatar um artigo científico que deve ser estruturado e apresentado segundo determinadas normas. Aqui, o produto gerado não é somente o documento do manuscrito e um punhado de gráficos, mas sim tudo que foi gerado durante a pesquisa e que precisa estar bem organizado e formatado para uso posterior e publicação/divulgação. Para obter sucesso na implementação de uma PR, é preciso:</p>
+<ul>
+<li>Ser diligente e sistemático</li>
+<li>Aprender novas ferramentas (computacionais)</li>
+<li>Aprender a organizar arquivos diversos</li>
+<li>Documentar todas as etapas do trabalho</li>
+</ul>
+<p>No dia a dia, os pesquisadores não sobrevivem se os computadores como ferramenta central de trabalho. Atualmente, não é preciso ser um “nerd” para que se possa utilizar com bastante eficiência os computadores que estão hoje cada vez mais portáteis e de fácil uso, para ser eficiente e produtivo no trabalho. Em algumas áreas da pesquisa é necessário maior envolvimento com linguagens de programação, programas específicos que exigem um esforço de aprendizado.</p>
+<p>No entanto, na PR o mais importante e desafior é certamente aprender a sistemática de trabalho do que ser um expert em programação - mas é necessário sim aprender alguma linguagem de programação (R ou Python) para implementar as práticas de PR. Durante nossa formação acadêmica não recebemos nenhum ou muito pouco treinamento em como preparar e organizar de maneira apropriadas os arquivos diversos incluindo dados, códigos, gráficos, tabelas, manuscrito, figuras, etc.</p>
+<p>Apender uma rotina de PR é fundamental para:</p>
+<ol style="list-style-type: decimal">
+<li>Facilitar o nosso próprio trabalho de análise-reanálise</li>
+<li>Permitir o uso dos dados e códigos por outras pessoas (seu orientador!)</li>
+<li>Compartilhar a “pipeline” da análise, ou seja, explicar o que, por que e como foi feito</li>
+</ol>
+<p>Quando não somos treinados a trabalhar seguindo as boas práticas de PR, é muito comum: criar um número grande arquivos e versões desnecessárias que dificultam o processo; gerar inconsistência e redundância nas análises; não ter um controle adequado de versões e dificuldade quando é solicitado o compartilhamento do trabalhos - ou seja, levará um tempo grande só para organizar a “bagunça” que foi gerada durante o processo e que só o próprio pesquisador entende, quando entende! Práticas que deveriam ser simples como refazer um gráfico ou estatísticas após receber os pareceres de revisores se tornam um verdadeiro pesadelo para alguns pesquisadores, o que contribui para o atraso na publicação de artigos.</p>
+</div>
+<div id="ferramentas-computacionais" class="section level2">
+<h2><span class="header-section-number">1.2</span> Ferramentas computacionais</h2>
+<p>Segundo <a href="https://yihui.name">Yihui Xie</a>, um dos principais desenvolvedores do R da empresa RStudio de programas (ex. knitr, rMarkdown, bookdown, etc) que visam facilitar a pesquisa reproduzível:</p>
+<blockquote>
+<p>The final product of research is not only the paper itself, but also the full computation environment used to produce the results in the paper such as the code and data necessary for reproduction of the results and building upon the research (Xie et al. 2014).</p>
+</blockquote>
+<p>Dentre os ambientes de programação disponíveis, as ferramentas mais usadas para implementar uma PR de maneira efetiva (dados, análises e saídas são combinados, idealmente, em um único ambiente de programação), são baseados em duas linguagens principais: Python e R, cujos produtos principais são Jupyter Notebooks e RMarkdown, respectivamente. Esses pacotes ou rotinas facilitam sobremaneira a documentação e reprodução das análises bem como aceleram a obtenção dos resultados e visualizações assim que novos dados forem adicionados ou reanálises são necessárias.</p>
+<p>Além de aprender a utilizar esses programas, é importante que o pesquisador aprenda como usar efetivamente planilhas eletrônicas para reunir e organizar os dados que serão usados na pesquisa. Por princípios, as planilhas eletrônicas como Excel, Libre Office Calc, Numbers e Google Sheets são usadas apenas para armazenar os dados e não para processar, transformar, visualizar ou fazer sumários prévios. O motivo é muito simples: esses procedimentos todos feitos com movimentos de mouse não são reproduzíveis! além disso, na PR os dados originais levantados ou recebidos devem ser mantidos na sua forma original. Caso seja modificado de forma que é mais fácil fazer em uma planilha como renomear variáveis, é importante manter sempre uma planilha não manipulada como referência.</p>
+
+</div>
+</div>
+            </section>
+
+          </div>
+        </div>
+      </div>
+<a href="index.html" class="navigation navigation-prev " aria-label="Previous page"><i class="fa fa-angle-left"></i></a>
+<a href="compedio-de-pesquisa.html" class="navigation navigation-next " aria-label="Next page"><i class="fa fa-angle-right"></i></a>
+    </div>
+  </div>
+<script src="libs/gitbook-2.6.7/js/app.min.js"></script>
+<script src="libs/gitbook-2.6.7/js/lunr.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-search.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-sharing.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-fontsettings.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-bookdown.js"></script>
+<script src="libs/gitbook-2.6.7/js/jquery.highlight.js"></script>
+<script>
+gitbook.require(["gitbook"], function(gitbook) {
+gitbook.start({
+"sharing": {
+"github": false,
+"facebook": true,
+"twitter": true,
+"google": false,
+"weibo": false,
+"instapper": false,
+"vk": false,
+"all": ["facebook", "google", "twitter", "weibo", "instapaper"]
+},
+"fontsettings": {
+"theme": "white",
+"family": "sans",
+"size": 2
+},
+"edit": {
+"link": "https://github.com/rstudio/bookdown-demo/edit/master/01-requisitos.Rmd",
+"text": "Edit"
+},
+"download": ["bookdown-demo.pdf", "bookdown-demo.epub"],
+"toc": {
+"collapse": "subsection"
+}
+});
+});
+</script>
+
+</body>
+
+</html>
